@@ -26,7 +26,8 @@
     }
     img {
       border-radius: 25px;
-      width: calc(2rem + 5vw);
+      width: 150px;
+      height: 150px;
       padding: 10px;
     }
   }
@@ -128,7 +129,7 @@
 @media(max-width: 1080px){
   .rectangle-1{
     background: linear-gradient(#00ff44 , green);
-    height: calc(3rem + 5vw);
+    height: auto;
     width: auto;
     display: flex;
     gap: 3%;
@@ -138,7 +139,8 @@
     }
     img {
       border-radius: 25px;
-      width: calc(2rem + 5vw);
+      width: 50px;
+      height: 50px;
       padding: 10px;
     }
   }
@@ -170,10 +172,10 @@
     background: rgb(0, 92, 5);
     margin: 5px;
     padding: 10px;
-    width: 100%;
+    width: 50px;
     border-radius: 10px;
     font-family: "MainFontNumberTwo"; 
-    width: calc(27rem + 10vw);
+    height: 800px;
     p {
       padding: 10px;
     }
@@ -229,6 +231,7 @@
     color: aliceblue;
     background-color: #000000;
     margin: 0px;
+    font-size: 25px;
   }
   
   body {
