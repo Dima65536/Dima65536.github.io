@@ -5,6 +5,13 @@
   font-weight: normal; 
 } 
 
+@font-face {
+  font-family: "MainFontNumberTwo"; 
+  src: url("../fonts/MainFontNumberTwo.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+} 
+
 .rectangle-1{
   background: linear-gradient(#00ff44 , green);
   height: calc(3rem + 5vw);
@@ -24,7 +31,7 @@
 
 .sidebar1 {
   width: 20%;
-  background-color: rgb(0, 97, 0);
+  background-color: rgb(0, 92, 5);
   height: calc(50rem + 5vw);
   float: right;
 }
@@ -46,14 +53,19 @@
 
 .post {
   display: flex;
-  background: #fff;
+  background: rgb(0, 92, 5);
   margin: 5px;
   padding: 10px;
+  border-radius: 10px;
+  font-family: "MainFontNumberTwo"; 
   p {
     padding: 10px;
   }
   h2 {
     padding: 10px;
+  }
+  img {
+    border-radius: 10px;
   }
 }
 
@@ -69,4 +81,27 @@ a {
 
 li {
   list-style: none;
+}
+
+footer {
+  padding: 10px;
+  background: lightblue;
+  width: 100%;
+}
+
+footer {
+  position: relative;
+  height: 50px;
+  background: rgb(0, 92, 5);
+  border: 3px solid black;
+}
+
+button {
+  background: #000000;
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(0, 92, 5);
+  width: 100px;
+  height: 31px;
+  font-size: 20px;;
+  border-radius: 10px;
 }
