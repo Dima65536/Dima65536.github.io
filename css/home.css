@@ -169,17 +169,18 @@
   
   .post {
     background: rgb(0, 92, 5);
-    width: 240px;
+    width: 200px;
     border-radius: 10px;
     font-family: "MainFontNumberTwo"; 
     height: 150px;
+    color: white;
     p {
       padding: 3px;
       font-size: 0px;
     }
     h2 {
       padding: 3px;
-      font-size: 18px;
+      font-size: 12px;
     }
     img {
       border-radius: 10px;
@@ -191,7 +192,7 @@
   }
   
   a {
-    color: #000000;
+    color: #ffff;
     font-size: calc(1rem + 1vw);
   }
   
@@ -200,7 +201,7 @@
   }
   
   ol li {
-    color: #000000;
+    color: white;
     font-size: 25px;
     list-style: none;
   }
@@ -219,9 +220,9 @@
     background: #000000;
     color: rgb(255, 255, 255);
     border: 1px solid rgb(0, 92, 5);
-    width: 80px;
+    width: 50px;
     height: 31px;
-    font-size: 20px;;
+    font-size: 15px;;
     border-radius: 10px;
     margin: 3px;
     padding: 3px;
